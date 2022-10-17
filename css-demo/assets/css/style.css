@@ -26,11 +26,13 @@ html {
   /*----------GLobal Styles--------*/
 
   body{
-    background-color:#f28705; font-family: 'Ubuntu', sans-serif;
+    background-color:font-family: 'Ubuntu', sans-serif;
   }
 
   header.primary{
     background: color #d9a404;
+
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Ehoundstooth%3C/title%3E%3Cg fill='%23d95204' fill-opacity='0.7' fill-rule='evenodd'%3E%3Cpath d='M0 18h6l6-6v6h6l-6 6H0M24 18v6h-6M24 0l-6 6h-6l6-6M12 0v6L0 18v-6l6-6H0V0'/%3E%3C/g%3E%3C/svg%3E");  
     text-align:center;
     text-shadow:1px 1px #000000;
     color:#ffffff;
@@ -48,7 +50,7 @@ html {
   }
 
   header.primary h1 a {
-    color:#ffffff;
+    color:#731702;
     text-decoration:none;
   }
 
@@ -98,6 +100,9 @@ header.primary ul li a:hover, header.primary ul li a:active{
   display:flex;
   flex-direction:row;
   justify-content:space-evenly;
+  border-bottom:2px dotted #733702;
+  padding:2.3rem 0;
+  border-top:2px dotted #733702;
 }
 
 #content article.post{
@@ -105,12 +110,89 @@ header.primary ul li a:hover, header.primary ul li a:active{
   box-shadow:0 4px 8px rgba(0,0,0,.3);
   padding:10px;
   border-radius:4px;
-  font-size:.8rem;
+  font-size:.7rem;
 }
 
 #content article.post:hover{
   box-shadow:0 8px 16px rgba(0,0,0,.3);
 }
+
+time.post-date, figcaption, footer.post-meta{
+  text-transform:uppercase;
+  color:#733702;
+  font-size:.5rem
+}
+
+.post-figure{
+  margin:0; 
+ }
+ 
+ .post figure img{
+   border: 2px double #733702;
+   padding: 3px;
+   background:#733702;
+   border-radius: 4px;
+ }
+ 
+ .post a{
+   color:#733702;
+ }
+ 
+ .post a:hover, .post a:active{
+   text-decoration:none;
+ }
+ 
+ /*  Attribute Selector  */
+ aside[role="complementary"]{
+   background-color:#f28705;
+   color:#fffff;
+   padding:1.4rem;
+ }
+ 
+ aside .container{
+   display:flex;
+   justify-content:space-between;
+   flex-direction:row;
+ }  
+ 
+ aside article.widget{
+   width:45%;
+ }
+ 
+ aside article.widget a:last-of-type {
+   color:#731702;
+   display:block;
+   margin-top:20px;
+   text-align:right;
+ }
+ 
+ aside article.widget a{
+   color:#ffffff;
+ }
+ 
+ aside article footer {
+   display:none;
+ }
+ 
+ #colophon{
+   background-color:#d9a404;
+   background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Ehoundstooth%3C/title%3E%3Cg fill='%23d95204' fill-opacity='0.7' fill-rule='evenodd'%3E%3Cpath d='M0 18h6l6-6v6h6l-6 6H0M24 18v6h-6M24 0l-6 6h-6l6-6M12 0v6L0 18v-6l6-6H0V0'/%3E%3C/g%3E%3C/svg%3E");  
+ }
+ 
+ 
+ #colophon h6{
+   padding:20px;
+   margin:0;
+   color:#731702;
+   text-align:center;
+   font-size:.8rem;
+   text-transform:uppercase;
+ }
+
+
+
+
+
 
 
 /* ---------Media Queries--------*/
