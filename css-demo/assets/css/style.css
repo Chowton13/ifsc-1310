@@ -59,7 +59,7 @@ html {
     padding:40px 40px 40px 40px;
     /* top/bottom | left/right */
     /* Single Value Applies to all Sides */
-    padding: 40px
+    padding: 40px;
     padding: 20px 40px;
   }
 
@@ -175,6 +175,10 @@ table{
   border-collapse:collapse;
   width:100%;
 }
+
+
+
+
 tr:nth-child(odd){
   background-color:rgba(192,192,192,.5);
 }
@@ -190,13 +194,63 @@ th{
 td{
   border:2px solid #733702;
   padding:5px;
+  width:33%;
+  text-align:right;
+}
+
+td:first-of-type{
+  text-align:left;
+}
+
+#demo ol{
+  list-style-type:upper-alpha;
+}
+
+#demo ul{
+  list-style-type:square;
+}
+
+#demo ul ul{
+  list-style-type:circle;
+}
+
+#demo dl{
+
+}
+
+#demo dt{
+  font-weight:bold;
+}
+#demo dd{
+  margin:0;
+}
+
+/* adjacent sibling combinator */
+
+dd + dt{
+  margin-top:0;
+}
+
+#demo blockquote{
+  background-color:#d9a404;
+  padding: 40px;
+  border:10px double #733702;
+  border-radius: 5px;
+}
+
+#demo cite{
+  display:block;
+  font-size:.8rem;
+  font-weight:bold;
+  text-align:right;
+  margin:10px;
 }
 
 
  /*  Attribute Selector  */
  aside[role="complementary"]{
    background-color:#f28705;
-   color:#fffff;
+   color:#ffffff;
    padding:1.4rem;
  }
  
@@ -239,10 +293,6 @@ td{
    font-size:.8rem;
    text-transform:uppercase;
  }
-
-
-
-
 
 
 
