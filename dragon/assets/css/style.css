@@ -46,15 +46,11 @@ html {
   padding:4px;
 }
 
-img { 
-  width:800px;
-  height: 800px;
-}
 
 /*-----------Responsive Images-------*/
 
 img {
-  max-width:100px;
+  max-width: 900px;
   height:auto;
 }
 
@@ -84,13 +80,13 @@ header.primary h1 a {
   color:#6889A6;
   background-image: url("https://lh3.google.com/u/0/d/0BzzZeZwHD1sxelhzSlJuZE50X2M=w1525-h1297-iv2?resourcekey=0--OHTGIOe2Tk-0t5VBvfgGw");
   display:block;
-  width: 1000px;
+  width:950px;
   height:500px;
-  margin: 0 auto;
-  text-indent: 100%;
+  margin: auto;
+  text-indent:100%;
+  overflow:hidden;
   white-space: nowrap;
-  overflow: hidden;
-}
+  }
 
 header.primary h2 {
  font-family: "quicksand", sans-serif;
@@ -193,7 +189,7 @@ text-transform: uppercase;
 
 #articles .post a:link,
 #articles .post a:visited {
-color:#2F6C73;
+color:#6889A6;
 }
 
 #articles .post figure {
