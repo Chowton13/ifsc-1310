@@ -78,14 +78,16 @@ header.primary h1{
 
 header.primary h1 a {
   color:#6889A6;
-  background-image: url("https://lh3.google.com/u/0/d/0BzzZeZwHD1sxelhzSlJuZE50X2M=w1525-h1297-iv2?resourcekey=0--OHTGIOe2Tk-0t5VBvfgGw");
+  background-image:url('https://logos-world.net/wp-content/uploads/2020/11/Crew-Dragon-Logo-700x394.png');
   display:block;
-  width:950px;
-  height:500px;
+  width: 800px;
+  height: 500px;
   margin: auto;
-  text-indent:100%;
+  text-indent: 100%;
   overflow:hidden;
   white-space: nowrap;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   }
 
 header.primary h2 {
