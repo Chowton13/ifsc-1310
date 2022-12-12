@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(203, 17, 17);
+    background-color:rgba(42, 2, 57, 0.86);
 }
 
 img{
@@ -19,7 +19,7 @@ img{
 .slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
 .slick-dots li button .slick-dot-icon,
 .slick-dots li.slick-active button .slick-dot-icon {
-  color: rgb(226, 96, 9);
+  color: rgba(7, 113, 170, 0.943);
 }
 
 /* Customize Previous/Next/Dots/Autoplay - Active State */
