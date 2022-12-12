@@ -11,5 +11,4 @@ $(document).ready(function() {
       autoplaySpeed: 2000
     });
 
-
 });
